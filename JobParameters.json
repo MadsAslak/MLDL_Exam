@@ -1,0 +1,38 @@
+{
+    "siteVersion": 3,
+    "request": {
+        "application": {
+            "name": "jupyter-all-spark",
+            "version": "4.1.8"
+        },
+        "product": {
+            "id": "u1-standard-64",
+            "category": "u1-standard",
+            "provider": "ucloud"
+        },
+        "name": null,
+        "replicas": 1,
+        "parameters": {
+        },
+        "resources": [
+        ],
+        "timeAllocation": {
+            "hours": 12,
+            "minutes": 0,
+            "seconds": 0
+        },
+        "resolvedProduct": null,
+        "resolvedApplication": null,
+        "resolvedSupport": null,
+        "allowDuplicateJob": true,
+        "sshEnabled": true
+    },
+    "resolvedResources": {
+        "ingress": {
+        }
+    },
+    "machineType": {
+        "cpu": 64,
+        "memoryInGigs": 384
+    }
+}
